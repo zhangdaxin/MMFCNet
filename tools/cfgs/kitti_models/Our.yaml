@@ -39,7 +39,7 @@ MODEL:
 
     BACKBONE_3D:
         NAME: VoxelBackBone8x
-#         NAME: UNetV2
+        
     MAP_TO_BEV:
         NAME: HeightCompression
         NUM_BEV_FEATURES: 256
