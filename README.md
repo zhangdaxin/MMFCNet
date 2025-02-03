@@ -11,7 +11,7 @@ See [installation instructions](INSTALL.md).
 
 ## Getting Started
 
-See [Getting Started with M3DETR](GETTING_STARTED.md).
+See [Getting Started with MMFCNet](GETTING_STARTED.md).
 
 # License
 
