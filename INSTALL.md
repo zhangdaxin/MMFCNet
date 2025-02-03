@@ -14,7 +14,7 @@ conda install pytorch=1.6.0 torchvision cudatoolkit=10.2 -c pytorch
 pip install spconv-cu102
 pip install tqdm scipy scikit-image
 git clone https://github.com/zhangdaxin/MMFCNet.git
-cd mmfcnet
+cd MMFCNet
 python setup.py develop
 ```
 ### For newer version of CUDA
@@ -25,6 +25,6 @@ conda install pytorch=1.9.1 torchvision cudatoolkit=11.1 -c pytorch -c nvidia
 pip install spconv-cu113	
 pip install pyyaml numba llvmlite tensorboardX SharedArray easydict tqdm scipy scikit-image imageio
 git clone https://github.com/zhangdaxin/MMFCNet.git
-cd mmfcnet
+cd MMFCNet
 python setup.py develop
 ```
