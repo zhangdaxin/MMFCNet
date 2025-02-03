@@ -8,23 +8,23 @@
 
 ### Example conda environment setup
 ```bash
-conda create -n m3detr python=3.6 -y
-conda activate m3detr
+conda create -n mmfcnet python=3.6 -y
+conda activate mmfcnet
 conda install pytorch=1.6.0 torchvision cudatoolkit=10.2 -c pytorch
 pip install spconv-cu102
 pip install tqdm scipy scikit-image
-git clone https://github.com/rayguan97/M3DETR.git
-cd M3DETR
+git clone https://github.com/zhangdaxin/MMFCNet.git
+cd mmfcnet
 python setup.py develop
 ```
 ### For newer version of CUDA
 ```
-conda create -n m3detr python=3.6 -y
-conda activate m3detr
+conda create -n mmfcnet python=3.6 -y
+conda activate mmfcnet
 conda install pytorch=1.9.1 torchvision cudatoolkit=11.1 -c pytorch -c nvidia
 pip install spconv-cu113	
 pip install pyyaml numba llvmlite tensorboardX SharedArray easydict tqdm scipy scikit-image imageio
-git clone https://github.com/rayguan97/M3DETR.git
-cd M3DETR
+git clone https://github.com/zhangdaxin/MMFCNet.git
+cd mmfcnet
 python setup.py develop
 ```
