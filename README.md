@@ -13,10 +13,6 @@ See [installation instructions](INSTALL.md).
 
 See [Getting Started with MMFCNet](GETTING_STARTED.md).
 
-# License
-
-This project is released under the [Apache 2.0 license](LICENSE).
-
 # Acknowledgement
 
 The source code of MMFCNet is based on [OpenPCDet](https://github.com/open-mmlab/OpenPCDet). 
